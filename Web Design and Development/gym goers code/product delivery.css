@@ -1,0 +1,131 @@
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Responsive styles for smaller screens */
+#rescontainer {
+    width: 1024px; /* Set a fixed width */
+    margin: 0 auto; /* Center the container */
+    height: 768px;
+    background-color: #1d1c1c; /* Set a background color for the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    padding: 20px; /* Add padding for space */
+    position: relative;
+    flex: 1;
+}
+
+footer {
+    background-color: grey;
+    color: rgba(255, 255, 255, 0.651);
+    text-align: center;
+    padding: 10px; /* Adjust the padding to make it smaller */
+    position: relative;
+    top: 70px;
+    width: 100%;
+    font-size: 1em; /* Adjust the font size to make it smaller */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+nav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.submit-btn button {
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+
+    /* Center the button horizontally */
+    margin: 0 auto;
+    display: block;
+}
+
+form {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+ } 
+
+ fieldset {
+    background-color: rgb(224, 185, 144);
+    -webkit-flex: 1 1 300px;
+    flex: 1 1 300px; 
+    margin: 10px;  
+ }
+ 
+ div {
+    margin: 5px;
+    width: 100%;
+ }
+ 
+ legend {
+    color: rgba(255, 255, 255, 0.884);
+    background-color: rgb(185, 36, 41);
+ }
+ 
+ label {
+    display: inline-block;
+    width: 120px;
+ }
+
+ fieldset#pickupInfo label, fieldset#deliveryInfo label {
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ 
+ textarea {
+    display: block;
+    width: 90%;
+    height: 100px;
+ }
+ 
+ input[type="submit"] {
+    height: 50px;
+    width: 200px;
+ }
+ 
+ input#sizeBox {
+    width: 240px;
+ }
+
+ h1 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }

@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .map-link {
+    margin-top: 20px;
+  }
+  
+  .map-link p {
+    margin: 10px;
+  }
+  
+  .map-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .map-link a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0; /* Adjust the padding to make it smaller */
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em; /* Adjust the font size to make it smaller */
+}
+
+
+nav {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+  /*res*/
+  #rescontainer {
+    width: 1024px; /* Set a fixed width */
+    margin: 0 auto; /* Center the container */
+    height: 768px;
+    background-color: #1d1c1c; /* Set a background color for the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    padding: 20px; /* Add padding for space */
+}

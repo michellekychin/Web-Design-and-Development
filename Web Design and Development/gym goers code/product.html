@@ -1,0 +1,152 @@
+<!-- PRODUCTS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="product.css" rel="stylesheet" />
+    <title>Product Page</title>
+
+</head>
+<body>
+    <div class="rescontainer">
+            <header>
+                <h1>OUR PRODUCTS</h1>
+            </header> 
+
+            <div>
+                <nav>
+                    <a href="homepage.html">Home</a>
+                    <a href="About Us.html">About us</a>
+                    <a href="newsclasses.html">News/Classes</a>
+                    <a href="maps.html">Maps</a>
+                    <a href="FAQ.html">FAQ</a>
+                    <a href="membership.html">Membership</a>
+                    <a href="Booking PT.html">Trainers</a>
+                    <a href="product.html">Products</a>
+                    <a href="FeedBack.html">Feedback</a>
+                </nav>
+            </div>
+        
+        <section>
+            <div class="product1">
+                <h1>Optimum Nutrition Gold Standard™ 100% Whey Double Rich Chocolate(5 lb)</h1>
+                <img src="Photo/product1.jpg" alt="product1"/>
+                <p><h2>Product Description</h2></p><hr/>
+                <p><b>Member = RM290(SAVE 34%)</b></p>
+                <p><i>USUAL = RM436.90</i></p>
+                <ul>
+                    <li>Packed with 24g whey protein blend, namely</li>
+                    <ul>
+                        <li>Whey Protein Isolate (primary source)</li>
+                        <li>Whey Protein Concentrate</li>
+                        <li>Whey Peptides</li>
+                    </ul>
+                    
+                    <li>Each scoop provides more than:</li>
+                    <ul>
+                        <li>5g of BCAA</li>
+                        <li>4g of Glutamine & glutamine precursors</li>
+                    </ul>
+        
+                    <li>Instantized Formula which easily mixed in shaker cup or just a glass and spoon</li>
+                    <li>Enhance muscle growth and strength</li>
+                    <li>Ideal as post-workout beverage to accelerate muscle repair & recovery</li>
+                    <li>Maintain good health because protein is involved in almost every process in the body</li>
+                    <li>Firm & tone up. Able to train more often and harder with increased strength</li>
+                    <li>Less muscle fatigue and soreness on the next day after workout</li>
+                    <li>Healthy (less likely to fall sick) with improved immune system</li>
+                    <li>Healthy hair & skin too</li>
+                </ul>
+                
+                <button class="add-to-cart-btn" onclick="addToCart('Optimum Nutrition Gold Standard™ 100% Whey Double Rich Chocolate(5 lb)', 436.90)">Add to Cart</button>
+            </div>
+        </section>
+        
+        <section>
+            <div class="product2">
+                <h1>Optimum Nutrition 100% Whey Gold Standard Strawberry(5lbs)</h1>
+                <img src="Photo/product2.jpg" alt="product2"/>
+                <p><h2>Product Description</h2></p><hr/>
+                <p><b>Member = RM290(SAVE 34%)</b></p>
+                <p><i>USUAL = RM436.90</i></p>
+                <br/><p>ON Gold Standard Whey Protein consists of various types of whey protein with essential amino acids that are important for <b>muscle repair and building</b>. It is designed to <b>support muscle maintenance and repair of muscle tissue</b>.</p>
+                <ul>
+                    <li>Each serving supplies 24g of Protein, 2g - 3g of Carbohydrates, 1.5g of Fat and minimal lactose.</li>
+                    <li>Due to its low level of lactose, ON 100% Whey may be suitable for those with mild lactose intolerance.</li>
+                    <li>Protein is an essential nutrient for:</li>
+                    <ul>
+                        <li>Normal growth and repair of muscle tissue and other body structures</li>
+                        <li>Maintain healthy immunity</li>
+                        <li>Muscle building</li>
+                    </ul>
+                </ul>
+        
+                <p>For <b>best results</b>, it is recommended to consume approximately 2g of protein per kg of body weight daily from a combination of high protein foods and supplements. For <b>even better results</b>, consume your daily protein <b>over 4-6 small meals equally</b> spread throughout the day.</p>
+                
+                <button class="add-to-cart-btn" onclick="addToCart('Optimum Nutrition 100% Whey Gold Standard Strawberry(5lbs)', 436.90)">Add to Cart</button>
+            </div>
+        </section>
+       
+        <section>
+            <div class="product3">
+                <h1>Optimum Nutrition BCAA Boost Grape Burst(390g/ 13.8 oz)</h1>
+                <img src="Photo/product3.jpg" alt="product3"/>
+                <p><h2>Product Description</h2></p><hr/>
+                <p><b>Member = RM132.54(SAVE 35%)</b></p>
+                <p><i>USUAL = RM203.90</i></p>
+        
+                <br/><p>Features:</p>
+                <ul>
+                    <li>An intra-workout BCAA formula supplies:</li>
+                    <ul>
+                        <li>8g BCAA in 2:1:1 ratio (Leucine: Isoleucine: Valine)</li>
+                        <li>1g L-Citrulline</li>
+                        <li>1.2g Electrolytes</li>
+                    </ul>
+        
+                    <li>Zero carbs & zero caffeine</li>
+                    <li>Free from banned substance</li>
+                </ul>
+        
+                <p>Benefits:</p>
+                <ul>
+                    <li>Promote muscle growth and recovery</li>
+                    <ul>
+                        <li>Reduce muscle breakdown and maximize lean muscle gain</li>
+                        <li>Improve workout performance so you can carry heavier/ do more reps</li>
+                    </ul>
+        
+                    <li>Support endurance</li>
+                    <ul>
+                        <li>Reduce fatigue and improve recovery time</li>
+                    </ul>
+        
+                    <li>Maintain fluid balance</li>
+                    <ul>
+                        <li>To keep body hydrated and reduce risk of muscle cramps</li>
+                    </ul>
+                </ul>
+        
+                <button class="add-to-cart-btn" onclick="addToCart('Optimum Nutrition BCAA Boost Grape Burst(390g/ 13.8 oz)', 203.90)">Add to Cart</button>
+
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function addToCart(productName, price) {
+            // You can implement the logic to add the product to the cart here
+            alert('Product added to cart:\n' + productName + ' - $' + price.toFixed(2));
+
+            // Redirect to the product delivery page
+        window.location.href = 'product delivery.html';
+        }
+    </script>
+
+    <footer class="footer">
+        <p>©2023 FITNESS CENTER GYM GOERS©</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+body
+{
+    margin: 0;
+    padding: 0  ;
+}
+.navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+h1, p {
+    color: white; /* Set text color to white */
+    text-align: center;
+}
+
+/*resolution*/
+#rescontainer {
+    width: 1024px; /* Set a fixed width */
+    margin: 0 auto; /* Center the container */
+    height: 768px;
+    background-color: #1d1c1c; /* Set a background color for the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    padding: 20px; /* Add padding for space */
+}

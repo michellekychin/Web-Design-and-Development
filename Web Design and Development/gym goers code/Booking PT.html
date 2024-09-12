@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Booking</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Booking PT.css" rel="stylesheet" />
+    </head>
+
+    <div id="rescontainer">
+
+        <body>
+    
+            <header>
+                <h1>Booking</h1>
+            </header>
+    
+            <nav>
+                <a href="homepage.html">Home</a>
+                <a href="About Us.html">About us</a>
+                <a href="newsclasses.html">News/Classes</a>
+                <a href="maps.html">Maps</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="membership.html">Membership</a>
+                <a href="Booking PT.html">Trainers</a>
+                <a href="product.html">Products</a>
+                <a href="FeedBack.html">Feedback</a>
+            </nav>
+
+            <aside>
+                <h1>Trainer Detail</h1>
+                <h3>Female</h3>
+                <dl>
+                    <dt><strong>Ms.Lee Hai En</strong></dt>
+                    <dd>Age &#58 30 years old</dd>
+                    <dd>Qualifications &#58 6 years</dd>
+                    <dd>Price &#58 RM150 / month</dd>
+                    <br/>
+                    <dt><strong>Ms.Tan Kai Wei</strong></dt>
+                    <dd>Age &#58 25 years old</dd>
+                    <dd>Qualifications &#58 3 years</dd>
+                    <dd>Price &#58 RM100 / month</dd>
+                </dl>
+
+                <h3>Male</h3>
+                <dl>
+                    <dt><strong>Mr.Lai Wei Kang</strong></dt>
+                    <dd>Age &#58 32 years old</dd>
+                    <dd>Qualifications &#58 10 years</dd>
+                    <dd>Price &#58 RM170 / month</dd>
+                    <br/>
+                    <dt><strong>Mr.Loo Hao Jie</strong></dt>
+                    <dd>Age &#58 28 years old</dd>
+                    <dd>Qualifications &#58 5 years</dd>
+                    <dd>Price &#58 RM130 / month</dd>
+                </dl>
+             </aside>
+
+             
+            <form action="Thanks Booking.css" method="post">
+
+                <h1>Booking Information</h1>
+
+                <label for="fname">First Name* :</label><br/>
+                <input type="text" id="fname" name="fname" required><br/><br/>
+
+                <label for="lname">Last Name* :</label><br/>
+                <input type="text" id="lname" name="lname" required><br/><br/>
+
+                <label for="gender">Gender* :</label>
+                <select id="gender" name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select><br/><br/>
+
+                <label for="icnum">IC Number* : </label><br/>
+                <input type="text" id="icnum" name="icnum" placeholder="xxxxxx-xx-xxxx" required><br/><br/>
+
+                <label for="phonenum">Phone Number* :</label><br/>
+                <input type="text" id="phonenum" name="phonenum" placeholder="xxx-xxxxxxx" required><br/><br/>
+
+                <label for="email">E-mail* :</label><br/>
+                <input type="email" id="email" name="email" required><br/><br/>
+
+                <label for="trainer">Personal Trainer* :</label><br/>
+                <select id="trainer" name="trainer">
+                    <optgroup label="Female Trainer">
+                        <option value="mrslee">Ms.Lee Hai En</option>
+                        <option value="mstan">Ms.Tan Kai Wei</option>
+                    </optgroup>
+                    <optgroup label="Male Trainer">
+                        <option value="mrlai">Mr.Lai Wei Kang</option>
+                        <option value="mrloo">Mr.Loo Hao Jie</option>
+                    </optgroup>
+                </select><br/><br/>
+
+                <label for="month">Month* :</label><br/>
+                <input type="text" id="month" name="month" required><br/>
+
+                <label for="datemin">From* :</label><br/>
+                <input type="date" id="datemin" name="datemin" required><br/>
+                <label for="datemax">To :</label><br/>
+                <input type="date" id="datemax" name="datemax" required><br/><br/>
+
+                <label for="payment">Payment Menthod* :</label><br/>
+                <select id="payment" name="payment">
+                    <option value="onlinebanking">Online Banking</option>
+                    <option value="creditcard">Credit Card</option>
+                    <option value="debitcard">Debit Card</option>
+                </select><br/><br/>
+ 
+                <button type="submit" formaction="Thanks Booking.html">Submit</button>
+             </form>
+
+             <footer>
+                &copy; 2023 FITNESS CENTER GYM GOERS &copy;
+            </footer>
+
+        </body>
+    </div>   
+
+</html>

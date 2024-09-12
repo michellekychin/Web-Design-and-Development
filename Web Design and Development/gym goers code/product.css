@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(245, 245, 245, 0.767);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.product1 img, 
+.product2 img, 
+.product3 img {
+    width: 350px; 
+    max-width: 350px; 
+    height: auto;
+    display: block; /* Remove extra space below image */
+    margin: 0 auto; /* Center images */
+}
+
+/* Responsive styles for smaller screens */
+#rescontainer {
+    width: 1024px; /* Set a fixed width */
+    margin: 0 auto; /* Center the container */
+    height: 768px;
+    background-color: #1d1c1c; /* Set a background color for the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    padding: 20px; /* Add padding for space */
+    position: relative;
+    flex: 1;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px; /* Adjust the padding to make it smaller */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em; /* Adjust the font size to make it smaller */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+nav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product1, 
+.product2, 
+.product3 {
+    background-color: rgb(224, 209, 179);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.add-to-cart-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    
+    /* Center the button horizontally */
+    margin: 0 auto;
+    display: block;
+}
+
+hr {
+    border-color: black;
+}
+
+.product1 h1,
+.product2 h1, 
+.product3 h1 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product1 h2, 
+.product2 h2, 
+.product3 h2 {
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.product1 p, li,
+.product2 p, li,
+.product3 p, li {
+    margin: 0;
+    font-family: Verdana;
+    font-size: 1rem;
+    line-height: 1.375;
+    text-align: left;
+}

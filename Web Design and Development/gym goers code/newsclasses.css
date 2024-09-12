@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #fff; /* Set text color to white */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 0; 
+  width: 100%;
+  font-size: 0.8em; 
+  margin-top: 8.5em;
+}
+
+/*resolution*/
+#rescontainer {
+  width: 1024px; /* Set a fixed width */
+  margin: 0 auto; /* Center the container */
+  height: 768px;
+  background-color: #1d1c1c; /* Set a background color for the content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  padding: 20px; /* Add padding for space */
+}

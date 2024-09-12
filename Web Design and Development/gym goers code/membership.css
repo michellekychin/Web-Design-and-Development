@@ -1,0 +1,96 @@
+/*Membership page*/
+* 
+{
+    color: white;
+}
+.navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+body
+{
+    
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#title-membership
+{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+.membership-plan
+{
+    display: block;
+}
+br
+{
+    color: white;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    padding: 0.2em; /* Adjust the padding to make it smaller */
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em; /* Adjust the font size to make it smaller */
+    padding-left: 0em;
+    padding-right: 0em;
+}
+.membership-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.membership
+{
+    border: 1px white solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+.pay-button 
+{
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+.pay-button:hover 
+{
+    background-color: #0056b3; 
+}
+/*Membership page*/
+
+/*resolution*/
+#rescontainer {
+    position: relative;
+    width: 1024px; /* Set a fixed width */
+    margin: 0 auto; /* Center the container */
+    height: 768px;
+    background-color: #1d1c1c; /* Set a background color for the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    padding: 20px; /* Add padding for space */
+}

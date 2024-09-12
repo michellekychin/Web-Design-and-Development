@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Photo/feedbackbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto; 
+    
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(77, 76, 76);
+    color: whitesmoke;
+    padding: 10px;
+}
+
+nav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+footer {
+    background-color: rgb(77, 76, 76);
+    color: white;
+    text-align: center;
+    padding: 10px; /* Adjust the padding to make it smaller */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em; /* Adjust the font size to make it smaller */
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    ;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style the rating dropdown */
+select {
+    appearance: none;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Style form on smaller screens */
+#rescontainer {
+    width: 1024px; /* Set a fixed width */
+    margin: 0 auto; /* Center the container */
+    height: 768px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    padding: 20px; /* Add padding for space */
+    position: relative;
+    flex: 1;
+}

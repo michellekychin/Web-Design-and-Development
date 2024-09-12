@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+.navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+  .faq-header {
+    text-align: center;
+    padding: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    background: #222; /* Darker background for the header */
+  }
+  
+  .faq-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .faq-item {
+    padding: 20px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.2em;
+  }
+  
+  .faq-answer {
+    padding-top: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+    display: block; /* Answers are always shown */
+  }
+  
+  footer{
+    background-color: #333;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /*resolution*/
+#rescontainer {
+  width: 1024px; /* Set a fixed width */
+  margin: 0 auto; /* Center the container */
+  height: 768px;
+  background-color: #1d1c1c; /* Set a background color for the content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  padding: 20px; /* Add padding for space */
+}

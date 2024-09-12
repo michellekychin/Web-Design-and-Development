@@ -1,0 +1,71 @@
+body {
+    background-size: 100% 100%;
+    background-color: gray;
+    background-attachment: fixed;
+    text-align: left;
+    font-family: Cambria Math;
+}
+
+
+header {
+    color: black;
+    font-family: Cambria Math;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 5px white; 
+    background-color: #444;
+    padding: 1px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin:15px;
+}
+
+article{
+    color: black;
+    padding: 10px;
+    line-height: 2.0;
+    background-color: burlywood;
+}
+
+table,th,td{
+    border: solid;
+}
+
+th{
+    text-align: center;
+    background-color: rgb(180, 167, 103);
+}
+
+td{
+    padding: 10px;
+    background-color: rgb(188, 162, 159);
+}
+
+footer{
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*resolution*/
+    #rescontainer {
+        position: relative;
+        width: 1024px; /* Set a fixed width */
+        margin: 0 auto; /* Center the container */
+        background-color: #1d1c1c; /* Set a background color for the content */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+        padding: 20px; /* Add padding for space */
+    }
+
