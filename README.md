@@ -27,7 +27,7 @@ This project is a web-based platform for **Gym Goer**, a fitness center aimed at
    Navigate to the folder where the project files are located.
 
 3. **Run the Website Locally**:
-   Open the `index.html` file in your preferred browser.
+   Open the `homepage.html` file in your preferred browser.
 
 4. **Editing the Project**:
    You can modify HTML, CSS, and JavaScript files in any text editor (e.g., Visual Studio Code) to make custom changes to the website’s layout, content, or functionality.
